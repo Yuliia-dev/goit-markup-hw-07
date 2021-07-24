@@ -82,6 +82,7 @@
   font-weight: 400;
   line-height: 1.71px;
   margin-bottom: 30px;
+  border-radius: 4px;
 
   color: var(--text-color);
 
@@ -93,15 +94,18 @@
     width: 17px;
     border: 2px solid var(--secondary-color);
     cursor: pointer;
+    border-radius: 4px;
   }
 
   .modal-form-checkbox-input:checked + &::before {
     background-image: url("../images/icon-check.svg");
     border: transparent;
     outline: none;
+    border-radius: 4px;
   }
   .modal-form-checkbox-input:focus + &::before {
     outline: 2px solid var(--secondary-color);
+    border-radius: 4px;
   }
 }
 .modal-form-contract {
@@ -114,6 +118,7 @@
 .modal-form-btn {
   @include font(16px, 1.87, 0.06em);
   border: none;
+  cursor: pointer;
 
   padding: 10px 55px;
   align-self: center;
