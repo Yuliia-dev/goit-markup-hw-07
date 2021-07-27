@@ -17,5 +17,15 @@
     ],
     "liveSassCompile.settings.generateMap": true,
     "liveServer.settings.port": 1235,
-    "liveSassCompile.settings.autoprefix": null
+    "liveSassCompile.settings.autoprefix": null,
+
+"html.format.wrapAttributes": [
+    
+"force-aligned",
+"prettier.printWidth": 80,
+"prettier.tabWidth": 2,
+"prettier.useTabs": true,
+"prettier.singleQuote": true,
+"prettier.jsxBracketSameLine": true
+]
 }
